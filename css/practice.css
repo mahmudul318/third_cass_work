@@ -1,0 +1,44 @@
+body{
+	margin: 0;
+	padding: 0;
+	outline: 0;
+}
+.maindiv{
+	width: 1200px;
+	margin: 80px auto;
+}
+.maindiv> .samediv img{
+	width: 360px;
+	height: 200px;
+}
+.samediv{
+	float: left;
+	width: 360px;
+	margin-right: 30px;
+	padding: 5px;
+	border: 2px solid black;
+	box-shadow: 6px 5px 11px 6px #a29494;
+}
+.samediv p{
+	
+	text-align: justify;
+	color: #686868;
+}
+.samediv h2{
+	color: #44d5d5;
+}
+.samediv a{
+	text-decoration: none;
+	color: #fff;
+	background: black;
+	display: block;
+	text-align: center;
+	padding: 5px 0;
+	transition: all 1s ease;
+}
+
+.samediv a:hover{
+	background: #f76800;
+	color: black;
+	font-weight: bold;
+}
